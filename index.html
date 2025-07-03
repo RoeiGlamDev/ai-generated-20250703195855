@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio Website</title>
+    <meta name="description" content="A simple portfolio website showcasing my projects and skills">
+    <meta name="keywords" content="portfolio, website, developer, designer">
+    <meta name="author" content="Your Name">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>Welcome to my portfolio website</h1>
+            <p>I'm a developer and designer with a passion for creating innovative and user-friendly experiences.</p>
+            <button class="load-more">Load More</button>
+            <div class="about-content" aria-hidden="true">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            </div>
+        </section>
+        <section id="projects">
+            <h1>My Projects</h1>
+            <ul class="project-list">
+                <li>
+                    <h2>Project 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+                <li>
+                    <h2>Project 2</h2>
+                    <p>Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                </li>
+                <li>
+                    <h2>Project 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+            </ul>
+            <button class="load-more">Load More</button>
+            <div class="project-content" aria-hidden="true">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Get in Touch</h1>
+            <p>If you'd like to get in touch, please fill out the form below.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
